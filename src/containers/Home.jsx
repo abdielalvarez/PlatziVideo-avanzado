@@ -11,7 +11,6 @@ import '../assets/styles/App.scss';
 const Home = ({ myList, trends, originals }) => {
   return (
     <>
-      <Header />
       <Search isHome />
       {myList.length > 0 &&
         <Categories title="Mi Lista">
